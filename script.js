@@ -3,10 +3,12 @@
 
 // Initialize books
 const books = [
-  { title: "To Kill a Mockingbird", author: "Harper Lee", available: 1 },
-  { title: "1984", author: "George Orwell", available: 1 },
+  { title: "To Kill a Mockingbird", author: "Harper Lee", available: 5 },
+  { title: "1984", author: "George Orwell", available: 3 },
   { title: "The Great Gatsby", author: "F. Scott Fitzgerald", available: 4 },
-  { title: "The Catcher in the Rye", author: "J.D. Salinger", available: 3 }
+  { title: "The Catcher in the Rye", author: "J.D. Salinger", available: 7 },
+  { title: "G.V.Kumbhojkar", author: "J.D. Salinger", available: 10 },
+  { title: "The Catch", author: "J.D. Salinger", available: 12 }
 ];
 
 // Save books if not already in localStorage
